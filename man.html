@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>VANS_MAN</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/commonCss/header.css"/>
+		<link rel="stylesheet" href="css/commonCss/footer.css" />
+		<link rel="stylesheet" href="css/man.css" />
+	    <link rel="stylesheet" href="css/demo.css" />
+		<link rel="stylesheet" href="css/iconfont.css"/>
+		<link rel="stylesheet" href="css/iconfont_yingyong.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/man_goods.js" ></script>
+		<script type="text/javascript" src="js/man_jquery.js" ></script>
+		<script type="text/javascript" src="js/man.js" ></script>
+	</head>
+	<body>
+		<!------公共头部------------------------------->
+		<header></header>
+		<!------------------------------------------->
+		
+		
+		<!------男子页面body的内容---------------------->
+		<!--小导航条-->
+		<div id="path_box" class="t">
+			<div id="man_top" class="c">
+				<div id="top_left" class="l">
+					<a id="left_a" href="home.html"><span id="left_span01">首页</span></a>
+					<img src="img/man/break-grey.svg"/>
+					<span id="left_span02">全部男子</span>
+				</div>
+				<div id="top_right" class="r">
+					<div id="right_select">
+						<label>排序：</label>
+						<span>最新</span>
+						<span class="iconfont right_icon">
+							&#xe7ac;
+						</span>
+					</div>
+					<div id="selected">
+						<a href="#" class="selected_a active">最新</a>
+						<a href="#" class="selected_a">按价格 从高到低</a>
+						<a href="#" class="selected_a">按价格 从低到高</a>
+						<a href="#" class="selected_a">最新上架时间</a>
+						<a href="#" class="selected_a">销量 从高到低</a>
+						<a href="#" class="selected_a">销量 从低到高</a>
+					</div>
+				</div>
+			</div>
+			<img src="img/man/bl.png" class="t"/>
+		</div>
+		<!---------->
+		<div id="man_body">
+			<div id="man_banxin" class="c">
+				<!---------排序状态盒------------------>
+				<div id="sequenceBox" class="l">
+					<dl class="sequence">
+						<dt class="sequence_font">
+							颜色
+							<span class="iconfont r size_icon">
+							&#xf018b;
+						    </span>
+						</dt>
+						<dd class="sequence_dd">
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">黑色</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">灰色</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">白色</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">米黄色</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">黄色</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">卡其色</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">金色</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">银色</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">橙色</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">粉红色</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">红色</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">酒红色</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">咖啡色</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">蓝色</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">深蓝色</a>
+							</span>
+						</dd>
+					</dl>
+					<dl class="sequence">
+						<dt class="sequence_font">
+							服配尺码
+							<span class="iconfont r size_icon">
+							&#xf018b;
+						    </span>
+						</dt>
+						<dd class="sequence_dd">
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">均码</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">XXS</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">XS</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">S</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">M</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">L</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">XL</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">XXL</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">XSS</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">ML</a>
+							</span>
+						</dd>
+					</dl>
+					<dl class="sequence">
+						<dt class="sequence_font">
+							鞋码
+							<span class="iconfont r size_icon">
+							&#xf018b;
+						    </span>
+						</dt>
+						<dd class="sequence_dd">
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">34.5</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">35</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">36</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">36.5</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">37</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">38</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">38.5</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">39</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">40</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">40.5</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">41</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">42</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">42.5</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">43</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">44</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">44.5</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">45</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">46</a>
+							</span>
+						</dd>
+					</dl>
+					<dl class="sequence">
+						<dt class="sequence_font">
+							鞋服配
+							<span class="iconfont r size_icon">
+							&#xf018b;
+						    </span>
+						</dt>
+						<dd class="sequence_dd">
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">鞋</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">服饰</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">配件</a>
+							</span>
+						</dd>
+					</dl>
+					<dl class="sequence">
+						<dt class="sequence_font">
+							穿法
+							<span class="iconfont r size_icon">
+							&#xf018b;
+						    </span>
+						</dt>
+						<dd class="sequence_dd">
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">系带</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">一脚蹬</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">魔术贴</a>
+							</span>
+						</dd>
+					</dl>
+					<dl class="sequence">
+						<dt class="sequence_font">
+							鞋帮
+							<span class="iconfont r size_icon">
+							&#xf018b;
+						    </span>
+						</dt>
+						<dd class="sequence_dd">
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">低帮</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">中帮</a>
+							</span>
+							<span class="sequence_span">
+								<a href="#" class="sequence_a">高帮</a>
+							</span>
+						</dd>
+					</dl>
+				</div>
+				<!---------动态创建商品------------------>
+				<div id="goodsBox" class="r">
+					<div class="goods">
+						<img src="img/man/1.jpg" class="gPic"/>
+						<h2 class="gName">
+							<a href="#">男款背包</a>
+						</h2>
+						<h3 class="gPrice">￥360</h3>
+						<div class="Rgoods">
+							<img src="img/man/31.jpg" class="gPic"/>
+							<a href="commodity_details.html" class="gBuy">快速购买</a>
+							<h2 class="gName">
+								<a href="#">男款背包</a>
+							</h2>
+							<h3 class="gPrice">￥360</h3>
+						</div>
+					</div>				
+				</div>
+			    <div id="look" class="r">
+			    	<div id="lookmore">
+			    		<span>查看更多</span>
+			    	</div>
+			    </div>
+			</div>
+		</div>
+		<div id="man_bottom" class="t">
+			<div id="man_bottom_banxin" class="c">
+				<h1>猜你喜欢</h1>
+				<div id="likeBox">
+					<div class="like">
+						<img src="img/man/1.jpg" class="likePic"/>
+						<h2 class="gName">
+							<a href="#">男款背包</a>
+						</h2>
+						<h3 class="likePrice">￥360</h3>
+					</div>
+					<div class="like">
+						<img src="img/man/5.jpg" class="likePic"/>
+						<h2 class="gName">
+							<a href="#">男款 腰带</a>
+						</h2>
+						<h3 class="likePrice">￥160</h3>
+					</div>
+					<div class="like">
+						<img src="img/man/6.jpg" class="likePic"/>
+						<h2 class="gName">
+							<a href="#">男款 钱包</a>
+						</h2>
+						<h3 class="likePrice">￥160</h3>
+					</div>
+					<div class="like">
+						<img src="img/man/4.jpg" class="likePic"/>
+						<h2 class="gName">
+							<a href="#">男款 夹克</a>
+						</h2>
+						<h3 class="likePrice">￥590</h3>
+					</div>
+				</div>
+				<div id="change">
+			    	<div id="lookmore">
+			    		<span>换一批</span>
+			    	</div>
+			    </div>
+			</div>
+		</div>
+		<!------------------------------------------->
+		
+		
+		<!------公共脚部------------------------------->
+		<footer></footer>
+		<!------------------------------------------->
+		
+		
+		<script>
+			$('header').load("commonHtml/header.html");
+			$('footer').load("commonHtml/footer.html");
+		</script>
+	</body>
+</html>

@@ -1,0 +1,107 @@
+#register_body{
+	height: 550px;
+	background: #F1F2ED;
+	overflow: hidden;
+}
+#register_box{
+	width: 602px;
+	height: 450px;
+	margin: 50px auto;
+	background: #fff;
+	border: 1px solid gainsboro;
+}
+#user{
+	width: 602px;
+	height: 44px;
+	margin-top: 35px;
+}
+.username_login{
+	font: 600 24px/44px "Franklin-Demi",'冬青黑体',"microsoft yahei";
+    color: #666;
+    width: 160px;
+    text-align: left;
+    background: #fff;
+    float: left;
+    padding-bottom: 2px;
+    padding: 0px;
+    margin-left: 50px;
+}
+#form{
+	width: 602px;
+	height: 232px;
+	/*background: aquamarine;*/
+	margin-top: 8px;
+}
+.form_span1{
+	padding-left: 59px;
+    margin-left: -9px;
+}
+.form_input{
+	width: 480px;
+	height: 26px;
+    padding: 11px 0;
+    padding-left: 22px;
+    border: 1px solid #d2d2d2;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Franklin","冬青黑体","microsoft yahei";
+}
+.form_span1 p{
+	margin-left: 50PX;
+	font-size: 12px;
+	color: white;
+	/*display: none;*/
+}
+.Register{
+	width: 505px;
+	height: 50px;
+	background: #C9192E;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.form_a1{
+	text-align: center;
+	line-height: 50px;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+}
+.Register:hover{
+	background: black;
+}
+.form_getInput{
+	width: 280px;
+	height: 26px;
+    padding: 11px 0;
+    padding-left: 22px;
+    border: 1px solid #d2d2d2;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Franklin","冬青黑体","microsoft yahei";
+}
+.getMessage{
+	margin-right: 50px;
+	margin-top: -1px;
+	width: 180px;
+	height: 50px;
+	background: black;
+}
+#check{	
+	margin-top: 15px;
+	/*color: #D2D2D2;	*/
+}
+.form_span2{
+	font-size: 16px;
+	color: #D2D2D2;
+	font-weight: bold;
+}
+.form_span2 a{
+	border-bottom: 2px solid #d2d2d2;
+	color: #D2D2D2;
+}
+#a1:hover{
+	color: #C9192E;
+}
+#a2:hover{
+	color: #C9192E;
+}

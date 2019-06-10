@@ -1,0 +1,320 @@
+/*************小导航条的样式***************/
+#path_box{
+	height: 97px;
+	background: #F1F2ED;
+}
+#man_top{
+	height: 88px;
+	/*overflow: hidden;*/
+	/*background: deepskyblue;*/
+	margin: 0 auto;
+    /*position: relative;*/
+}
+#top_left{
+	width: 206px;
+	height: 30px;
+	margin-top: 29px;
+	overflow: hidden;
+	/*background: pink;*/
+}
+#left_span01{
+	font-size: 16px;
+    line-height: 30px;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    color: #589BC6;
+    font-weight: 600;
+}
+#left_a{
+	text-decoration: none;
+}
+#left_span01:hover{
+	color: #c8192e;
+}
+#top_left img{
+	width: 25px;
+	height: 22px;
+	margin-left: 25px;
+	margin-bottom: 3px;
+}
+#left_span02{
+	color: #64686b;;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    font-weight: 600;
+    margin-left: 25px;
+}
+#top_right{
+	width: 242px;
+	height: 48px;
+	margin-top: 20px;
+	border: 1px solid #d2d2d2;
+    background: #fff;
+    position: relative;
+}
+#right_select{
+	width: 240px;
+    height: 46px;
+    font-weight: bold;
+    font-family: "Franklin-Roman","冬青黑体","microsoft yahei";
+    color: #666;
+    font-size: 15px;
+    /*background: pink;*/
+    margin-top: 1px;
+    margin-left: 1px;
+    /*z-index: 90px;*/
+}
+#right_select label{
+	display: inline-block;
+    margin-left: 20px;
+    height: 46px;
+    line-height: 46px;
+    text-align: right;
+}
+.right_icon{
+	float: right;
+    line-height: 46px;
+    margin-right: 15px;
+    font-size: 12px;
+}
+#selected{
+	position: absolute;
+    left: 0;
+    top: 48px;
+    width: 242px;
+    border: 1px solid #d2d2d2;
+    border-top: 0;
+    background: #fff;
+    z-index: 16; 
+    display: none;
+}
+.selected_a{
+	display: block;
+    padding-left: 20px;
+    line-height: 46px;
+    border-right: 1px solid #d2d2d2;
+    border-top: 2px dotted #d2d2d2;
+    font-weight: bold;
+    font-family: "Franklin-Roman","冬青黑体","microsoft yahei";
+    color: #cccccc;
+    font-size: 15px;
+}
+.active{
+	color: #cd0200;
+}
+.selected_a:hover{
+	text-decoration: none;
+}
+/*************body的样式***************/
+#man_body{
+	background: #F1F2ED;
+	height: 4700px;
+	overflow: hidden;
+}
+#man_banxin{
+	/*background: pink;*/
+	height: 4700px;
+	overflow: hidden;
+}
+/******排序状态盒的样式******/
+#sequenceBox{
+	width: 450px;
+	/*height: 408px;*/
+	margin-top: 30px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.sequence{
+	margin: 0 22px;
+    border-bottom: 0.5px dotted #d2d2d2;
+    padding: 0;
+    margin-bottom: 0;
+    line-height: 20px;
+    /*background: antiquewhite;*/
+}
+.sequence_font{
+	width: 100%;
+    margin-right: 0;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    float: none;
+    height: 66px;
+    line-height: 66px;
+    color: #000;
+}
+.size_icon{
+	font-size: 15px;
+}
+/*控制隐藏*/
+.sequence_dd{
+	display: none;
+	width: 100%;
+    margin: 0 0 6px;
+}
+.sequence_span{
+	display: inline-block;
+    position: relative;
+    margin-bottom: 5px;
+    margin-right: 7px;
+    margin: 5px 0;
+    padding: 0;
+}
+.sequence_a{
+	min-width: 15px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 15px;
+    border: 1px solid #d2d2d2;
+    text-align: center;
+    font-size: 15px;
+    color: #589BC6;
+    font-weight: bold;
+    display: inline-block;
+}
+.sequence_a:hover{
+	text-decoration: none;
+}
+/************************/
+/******商品盒的样式*********/
+#goodsBox{
+	width: 930px;
+	height: 4550px;
+	/*background: deepskyblue;*/
+	margin-top: 30px;
+	overflow: hidden;
+}
+.goods{
+	float: left;
+	width: 300px;
+	height: 455px;
+	margin-left: 10px;
+	/*background: lightgoldenrodyellow;*/
+	position: relative;
+	z-index: 8;
+}
+.gPic{
+	width: 300px;
+	height: 300px;
+}
+.gName{
+	display: block;
+	margin-top: 15px;
+	text-align: center;
+}
+.gName:hover a{
+	text-decoration: none;
+}
+.gPrice{
+	display: block;
+	margin-top: 30px;
+	text-align: center;
+}
+.Rgoods{
+	width: 300px;
+	height: 455px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*background: lightgoldenrodyellow;*/
+	opacity:0;
+}
+.goods:hover .Rgoods{
+	opacity: 1;
+}
+.gBuy{
+	position: absolute;
+    top: 50%;
+    left: 48%;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    background: #c8192e;
+    font-size: 16px;
+    font-family: "Franklin-Roman","冬青黑体","microsoft yahei";
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin: -5px 0 0 -80px;
+    z-index: 5;
+}
+.gBuy:hover{
+	background: black;
+	color: white;
+	text-decoration: none;
+}
+/************************/
+#look{
+	width: 930px;
+	height: 48px;
+	/*background: yellow;*/
+	/*margin-top: 30px;*/
+	/*overflow: hidden;*/
+}
+#lookmore{
+	width: 138px;
+	height: 48px;
+	background: black;
+	margin: 0 auto;
+}
+#lookmore:hover{
+	background: #c8192e;
+}
+#lookmore span{
+	display: block;
+    height: 48px;
+    line-height: 48px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.2s linear;
+}
+#man_bottom{
+	height: 570px;
+	/*background: white;*/
+}
+#man_bottom_banxin{
+	height: 570px;
+	/*background: burlywood;*/
+	overflow: hidden;
+}
+#man_bottom_banxin h1{
+	width: 100%;
+	height: 102px;
+	/*background: yellow;*/
+	text-align: center;
+	line-height: 102px;
+	margin-top: 10px;
+}
+#likeBox{
+	width: 1040px;
+	height: 335px;
+	/*background: blue;*/
+	margin: 0 auto;
+}
+.like{
+	float: left;
+	width: 245px;
+	height: 335px;
+	/*background: pink;*/
+	margin: 0 7.5px;
+}
+.likePic{
+	width: 245px;
+	height: 245px;
+}
+.likePrice{
+	display: block;
+	margin-top: 18px;
+	text-align: center;
+	color: red;
+}
+#change{
+	width: 930px;
+	height: 48px;
+	/*background: yellow;*/
+	margin: 0 auto;
+	margin-top: 30px;
+}

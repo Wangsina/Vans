@@ -1,0 +1,137 @@
+#login_body{
+	height: 530px;
+	background: #F1F2ED;
+	overflow: hidden;
+}
+#login_box{
+	width: 602px;
+	height: 413px;
+	margin: 58.5px auto;
+	background: #fff;
+	border: 1px solid gainsboro;
+}
+#user{
+	width: 602px;
+	height: 44px;
+	/*background: aliceblue;*/
+	margin-top: 35px;
+}
+.username_login{
+	font: 600 24px/44px "Franklin-Demi",'冬青黑体',"microsoft yahei";
+    width: 160px;
+    text-align: left;
+    background: #fff;
+    float: left;
+    padding-bottom: 2px;
+    border-bottom: 2px solid;
+    padding: 0px;
+    color: #C9192E;
+    margin-left: 50px;
+}
+#form{
+	width: 602px;
+	height: 232px;
+	/*background: aquamarine;*/
+	margin-top: 8px;
+}
+/*#form_li1{
+	margin-bottom: 20px;
+    height: auto;
+}*/
+.form_span1{
+	padding-left: 59px;
+    margin-left: -9px;
+}
+.form_input{
+	width: 480px;
+	height: 26px;
+    padding: 11px 0;
+    padding-left: 22px;
+    border: 1px solid #d2d2d2;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Franklin","冬青黑体","microsoft yahei";
+}
+.form_span1 p{
+	margin-left: 50PX;
+	font-size: 12px;
+	color: white;
+	/*display: none;*/
+}
+.forget{
+	/*display: block;*/
+	margin-right: 59px;
+    line-height: 32px;
+    color: #d2d2d2;
+    font-size: 16px;
+    width: auto;
+    font-weight: normal;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+}
+.forget:hover{
+	text-decoration: none;
+	color: #0563c3;
+}
+.login{
+	width: 310px;
+	height: 50px;
+	background: #C9192E;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+.Register{
+	margin-right: 50px;
+	margin-top: 7px;
+	width: 150px;
+	height: 50px;
+	background: black;
+}
+.form_a1{
+	text-align: center;
+	line-height: 50px;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+}
+.login:hover{
+	background: black;
+}
+#elselogin{
+	width: 482px;
+	height: 40px;
+	/*background: yellow;*/
+	margin: 30px auto;
+}
+#elselogin span{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    /*vertical-align: middle;*/
+    float: left;
+    line-height: 37px;
+    color:  #666;
+}
+.elselogin_a1{
+	margin-left: 5px;
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-image:url(../img/login/weichat-round-inactive-36.svg);
+	background-size: 100% 100%;
+}
+.elselogin_a2{
+	margin-left: 10px;
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/login/weibo-square-inactive-36.svg);
+	background-size: 100% 100%;
+}
+.elselogin_a3{
+	margin-left: 10px;
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/login/qq-round-inactive-36.svg);
+	background-size: 100% 100%;
+}

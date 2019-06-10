@@ -1,0 +1,152 @@
+/*************小导航条的样式***************/
+#path_box{
+	height: 70px;
+	background: #F1F2ED;
+}
+#man_top{
+	width: 1300px;
+	height: 70px;
+	margin: 0 auto;
+	/*background: deepskyblue;*/
+}
+#top_left{
+	width: 1300px;
+	height: 30px;
+	margin-top: 20px;
+	overflow: hidden;
+	/*background: pink;*/
+}
+#left_span01{
+	font-size: 16px;
+    line-height: 30px;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    color: #589BC6;
+    font-weight: 600;
+}
+#left_a{
+	text-decoration: none;
+}
+#left_span01:hover{
+	color: #c8192e;
+}
+#top_left img{
+	width: 25px;
+	height: 22px;
+	margin-left: 25px;
+	margin-bottom: 3px;
+}
+#left_span02{
+	color: #589BC6;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    font-weight: 600;
+    margin-left: 25px;
+}
+#left_span03{
+	color: #64686b;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    font-weight: 600;
+    margin-left: 25px;
+}
+/*************身体部位body的样式***************/
+#aboutVans_body{
+	height: 1500px;
+	background: #F1F2ED;
+}
+#aboutVans_bodyBox{
+	width: 1300px;
+	height: 1400px;
+	margin: 0 auto;
+	/*background: pink;*/
+}
+#bigBox{
+	width: 1300px;
+	height: 1290px;
+	margin: 0 auto;
+	/*background: aquamarine;*/
+}
+.infoBox{
+	width: 240px;
+	height: 430px;
+	/*background: antiquewhite;*/
+	float: left;
+	margin-right: 25px;
+}
+/*.gap在js设置调节边距问题*/
+.gap{
+	margin-right: 0;
+}
+.infoPic{
+	width: 240px;
+	height: 214px;
+}
+#infoBox:hover a{
+	text-decoration: none;
+}
+.infoTitle{
+	display: block;
+	font-size: 16px;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    font-weight: bold;
+    color: #000;
+    line-height: 24px;
+    margin-top: 15px;
+    height: 48px;
+    padding-left: 2px;
+}
+.infoText{
+	display: block;
+    font-size: 14px;
+    width: 240px;
+    height: 60px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.infoTime{
+	display: block;
+	font-size: 14px;
+    width: 240px;
+    height: 16px;
+}
+.readmore{
+	display: block;
+	margin-top: 5px;
+	color: #589BC6;
+    font-size: 16px;
+}
+#bottom_right{
+	width: 1300px;
+	height: 38px;
+	margin-top: 30px;
+	/*background: yellow;*/
+}
+.bottom_img1{
+	width: 16px;
+	height: 20px;
+	margin-top: 9px;
+	margin-right: 10px;
+}
+.bottom_img2{
+	width: 50px;
+	height: 38px;
+	margin-right: 10px;
+}
+.bottom_input{
+	width: 58px;
+	height: 36px;
+	text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    border-color: #d7d8d4;
+}
+.bottom_span{
+	color: #666;
+	padding-right: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 38px;
+}

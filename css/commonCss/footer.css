@@ -1,0 +1,138 @@
+/*************脚步footer的样式***************/
+footer{
+	height: 471px;
+	background: black;
+}
+#foot_01{
+	height: 325px;
+	/*background: pink;*/
+}
+#foot_02{
+	height: 146px;
+	overflow: hidden;
+	/*background: deepskyblue;*/
+}
+.footbox{
+	margin-top: 30px;
+}
+/*左*/
+#foot_box1{
+	width: 480px;
+	height: 265px;
+	/*background: palegoldenrod;*/
+}
+#foot_box4{
+	width: 160px;
+	height: 265px;
+	/*background: palegreen;*/
+}
+#foot_box5{
+	width: 320px;
+	height: 265px;
+	/*background: paleturquoise;*/
+}
+.midfont1{
+	margin-top: 25px;
+	display: block;
+	color: #fff;
+    font-weight: bold;
+}
+.midfont2{
+	margin-top: 50px;
+	display: block;
+	color: #fff;
+    font-weight: bold;
+}
+.smallfont a{
+	margin-top: 8px;
+	display: block;
+    text-transform: uppercase;
+	color: #589BC6;
+}
+.smallfont a:hover{
+	text-decoration: none;
+	color: red;
+}
+/*中*/
+#foot_box2{
+	width: 647px;
+	height: 265px;
+	/*background: palegreen;*/
+	border-left: 1px solid white;
+}
+/*右*/
+#foot_box3{
+	width: 311px;
+	height: 265px;
+	/*background: paleturquoise;*/
+	border-left: 1px solid white;
+}
+.margin{
+	display: block;
+    margin-left: 30px;
+}
+.icon{
+	margin-left: 72px;
+	margin-top: 15px;
+}
+.foot_icon{
+	float: left;
+    margin-left: 8px;
+    width: 32px;
+    height: 32px;
+    background: grey;
+}
+.foot_icon .iconfont{
+	/*清除之前的样式*/
+	clear: both;
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+	margin-top: 15px;
+	margin-left: 2px;
+}
+.foot_icon:nth-child(1):hover .iconfont{
+	color: greenyellow;
+}
+.foot_icon:nth-child(2):hover .iconfont{
+	color: red;
+}
+.foot_icon:nth-child(3):hover .iconfont{
+	color: blue;
+}
+.foot_icon:nth-child(4):hover .iconfont{
+	color: purple;
+}
+#foot_02 img{
+	display: block;
+    margin-top: 30px;
+	width: 222px;
+	height: 91px;
+}
+#foot_box6{
+	width: 250px;
+	height: 91px;
+	margin-top: 30px;
+	/*background: white;*/
+}
+#foot_box7{
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 80px;
+	height: 30px;
+	background: grey;
+}
+#foot_span{
+	display: block;
+	line-height: 30px;
+	margin-left: 8px;
+	color: white;
+	font-size: 15px;
+}
+#foot_box7 .iconfont{
+	clear: both;
+	color: white;
+	display: block;
+	margin-top: -22px;
+	margin-right: 8px;
+}
